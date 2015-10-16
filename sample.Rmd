@@ -27,8 +27,8 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 ```{r, figure-1}
 correlated.value <- function(x, r){
-    r2 = r ^ 2
-    ve = 1 - r2
+    r2 <- r ^ 2
+    ve <- 1 - r2
     SD <- sqrt(ve)
     e  <- rnorm(length(x), mean=0, sd=SD)
     y  <- r * x + e
