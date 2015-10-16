@@ -37,7 +37,7 @@ cache:
 # - install devtools if not already installed
 # - install covr if not already installed
 # - update all installed packages
-# - install package with dependencies
+
 install:
   - mkdir -p ~/Rlib
   - echo 'R_LIBS=~/Rlib' > .Renviron
