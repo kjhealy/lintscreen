@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/kjhealy/travtest.svg?branch=master)](https://travis-ci.org/kjhealy/travtest) 
+[![Build Status](https://travis-ci.org/kjhealy/lintscreen.svg?branch=master)](https://travis-ci.org/kjhealy/lintscreen) 
 
 # lintscreen: Using lintr and travis-ci to check the R code in `.Rmd` files
 
