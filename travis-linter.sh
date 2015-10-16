@@ -5,6 +5,7 @@ exitstatus=0
 
 for file in *.Rmd
 do
+    Rscript -e "lintr::lint(\"$file\")"
     outputbytes=`Rscript -e "lintr::lint(\"$file\")" | grep ^ | wc -c`
     if [ $outputbytes -gt 0 ]
     then
