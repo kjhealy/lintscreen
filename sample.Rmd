@@ -42,8 +42,8 @@ y <- correlated.value(x=x, r=.5)
 z <- correlated.value(x=y, r=0.8)
 z <- factor(z > 0 & sample(z, 200))
 
-x <- x + 10
-y <- y + 10
+x <- x + 15
+y <- y + 15
 
 
 plot(x, y,
